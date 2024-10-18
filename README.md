@@ -3,10 +3,10 @@ Rwandr. A Real World Asset Money Protocol
 
 I am solving the problem of lack of widespread adoption in Africa and throughout the world.
 
-Smart wallets and scaling solutions has innovatively set the stage to onboard the next three billion users
-by making thwe onboarding and overall user-experience intuitive and seamless.
+Smart wallets and scaling solutions have innovatively set the stage to onboard the next three billion users
+by making the onboarding and overall user-experience intuitive and seamless.
 
-My solution to the problem is to increase adoption by making crypto indistinguishable from money and how we already perceive it.
+My added-solution to the problem is to increase adoption by making crypto indistinguishable from money and how we already perceive it.
 
 Hence why I created Rwandr. A real world asset money protocol.
 
