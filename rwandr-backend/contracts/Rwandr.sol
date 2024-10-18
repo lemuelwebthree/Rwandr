@@ -13,7 +13,7 @@ contract Rwandr is ERC404 {
 
     // Constructor to initialize the contract with token details and owner's initial balance
     constructor(address _owner) ERC404("Rwandr Notes", "Rwandr", 18, 21000000, _owner) {
-        balanceOf[_owner] = 10000 * 10 ** 18; // Setting the initial balance of tokens for the owner
+        balanceOf[_owner] = 21000000 * 10 ** 18; // Setting the initial balance of tokens for the owner
     }
 
     // Function to set the data URI, which can be used for additional metadata (change as needed)
