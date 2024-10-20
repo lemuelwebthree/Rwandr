@@ -7,7 +7,7 @@ async function main() {
 
     console.log('Rwandr - WETH pool is initializing on Uniswap V3...')
     const token0 = '0xb4ca4966d5d3D19ABff5024e125B82A929B73768' // Rwandr Token Address on Sepolia
-    const token1 = '0x4200000000000000000000000000000000000006' // WETH Token Address on Sepolia
+    const token1 = '0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14' // WETH Token Address on Sepolia
     const fee = 10000n // 1% fee
     const sqrtPriceX96 = 792281625000000000000000000n // 1/10000 price ratio
 
@@ -17,8 +17,8 @@ async function main() {
     // - sqrtPriceX96 is an encoded value representing the initial price of the pool, set based on the desired price ratio.
     const contractAddress = {
         uniswapV3NonfungiblePositionManager:
-            '0x27F971cb582BF9E50F397e4d29a5C7A34f11faA2',
-        uniswapV3Factory: '0x4752ba5DBc23f44D87826276BF6Fd6b1C372aD24',
+            '0x1238536071E1c677A632429e3655c799b22cDA52',
+        uniswapV3Factory: '0x0227628f3F023bb0B980b67D528571c95c6DaC1c',
     }
 
     // Contract instances for interacting with Uniswap V3's NonfungiblePositionManager and Factory.
@@ -34,7 +34,7 @@ async function main() {
         deployer
     )
 
-    const my404Contract = await ethers.getContractAt('My404', token0, deployer)
+    const my404Contract = await ethers.getContractAt('Rwandr', token0, deployer)
 
     // Creating the pool on Uniswap V3 by specifying the tokens, fee, and initial price.
     let tx =
