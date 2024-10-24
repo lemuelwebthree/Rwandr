@@ -14,3 +14,7 @@ I was inspired by the name because I am African, secondly because Base's Around 
 and the Real World Asset field of web3.
 
 Money and cassh we know it is an asset class and it si a very one! So I, Lemuel Solomon, officially welcome you to Rwandr: Feel The Money!
+
+References:
+
+Inspired by Quicknode and Pandorda. Quicknode created an ERC404 tutorial which this project is based upon. The unofficial ERC404 EIP was created by Pandora.
